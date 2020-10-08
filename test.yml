@@ -1,5 +1,8 @@
-- name: Add the user 'Puma12'
-  user:
-    name: puma12
-    comment: puma
-    group: sudo
+- hosts: all
+  gather_facts: true
+  become: true
+  tasks:
+    user:
+      name: puma12
+      comment: puma
+      group: sudo
