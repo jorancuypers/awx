@@ -1,8 +1,5 @@
 - hosts: all
-  gather_facts: true
   become: true
   tasks:
-    user:
-      name: puma12
-      comment: puma
-      group: sudo
+    - name: Add puma
+      command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash puma77
