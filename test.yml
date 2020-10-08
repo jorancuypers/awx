@@ -2,6 +2,6 @@
   become: true
   tasks:
     - name: Add joranc
-      command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash joranc
+      command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash jorancu
     - name: Add joranc2
-      command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash joranc2
+      command: /usr/sbin/useradd -m -p $6$JXfS/FpfxMV8pBWA$TCO4fdP/cLZxrSUoFB6lvgERyF9UwTb289t5WFhRFi.10z1nL6fmq1sWkGVJTj/ShnBhhpaKGrdQn6aZlYLuG1 -s /bin/bash jorancu2
